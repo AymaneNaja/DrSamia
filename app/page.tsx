@@ -6,11 +6,11 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Checkbox } from "@/components/ui/checkbox"
 import { ArrowRight, ArrowUpRight, Sparkles } from "lucide-react"
-import { LanguageProvider, useLanguage } from "./contexts/LanguageContext"
-import { translations, type Language } from "./utils/translations"
-import { LanguageSwitcher } from "./components/LanguageSwitcher"
-import { ConsultationModal } from "./components/ConsultationModal"
-import { FloatingComments } from "./components/FloatingComments"
+import { LanguageProvider, useLanguage } from "@/contexts/LanguageContext"
+import { translations, type Language } from "@/utils/translations"
+import { LanguageSwitcher } from "@/components/LanguageSwitcher"
+import { ConsultationModal } from "@/components/ConsultationModal"
+import { FloatingComments } from "@/components/FloatingComments"
 
 function Page() {
   const { language } = useLanguage()
